@@ -8,7 +8,7 @@ All user and AI conversations are stored persistently in MongoDB, enabling chat 
 
 This project showcases real-world usage of Google Gemini multimodal models, backend database integration, and scalable Python application development.
 
-🚀 Key Features
+🚀Key Features
 
 💬 Conversational AI using Google Gemini API
 
@@ -91,24 +91,17 @@ text (message content)
 
 timestamp (message time)
 
-✔ Ensures complete chat history persistence
-
-▶️ How to Run the Project
-1️⃣ Clone Repository
-git clone https://github.com/Ramrai77/Multimodality-Chat.git
-cd Multimodality-Chat
-
-2️⃣ Install Dependencies
+Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Configure Google Gemini API & MongoDB
+Configure Google Gemini API & MongoDB
 
 Create a .env file:
 
 GOOGLE_API_KEY=your_google_gemini_api_key
 MONGO_URI=your_mongodb_connection_string
 
-4️⃣ Run Application
+Run Application
 streamlit run app.py
 
 📂 Project Structure
