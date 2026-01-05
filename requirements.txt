@@ -1,0 +1,12 @@
+streamlit
+PyPDF2
+python-docx
+gTTS
+pydub
+whisper
+google-generativeai
+phi
+youtube-transcript-api
+fpdf
+Pillow
+python-dotenv
